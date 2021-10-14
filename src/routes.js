@@ -1,6 +1,6 @@
 import Login from "./components/Login"
 
-const routes = [
+const routes = [                 
     {path: "/", element: <Login />}
 ]
 
