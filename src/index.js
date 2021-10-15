@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { BrowserRouter as Router} from "react-router-dom"
 import './static/fonts/font.css'
-import './static/fonts/reset.css'
+import './static/reset.css'
 
 ReactDOM.render(
   <React.StrictMode>

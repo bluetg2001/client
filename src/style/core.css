@@ -1,0 +1,10 @@
+html,
+body,
+#root {
+  min-width: 100vh !important;
+}
+
+.txt-bold {
+  font-weight: 700;
+}
+/*# sourceMappingURL=core.css.map */
