@@ -1,0 +1,36 @@
+#root .header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+#root .header > .wrapper {
+  margin: 0 auto;
+  width: 1280px;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root .header > .wrapper .logo {
+  font-size: 35px;
+  cursor: pointer;
+}
+
+#root .header > .wrapper .header-contents {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+  -webkit-column-gap: 16px;
+          column-gap: 16px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

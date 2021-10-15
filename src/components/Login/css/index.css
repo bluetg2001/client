@@ -20,19 +20,36 @@
   margin-top: 32px;
 }
 
-#root .login .login-contents .email-input > .title {
+#root .login .login-contents .input > .title {
   font-size: 12px;
 }
 
-#root .login .login-contents .email-input .input input {
+#root .login .login-contents .input .input input {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 272px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #A9A9A9;
+}
+
+#root .login .login-btn {
+  margin-bottom: 12px;
   width: 100%;
-  border: 0;
-  border-bottom: 2px solid;
-  outline: 0;
-  color: #ffffff;
-  padding: 7px 0;
-  background: transparent;
-  -webkit-transition: border-color 0.2s;
-  transition: border-color 0.2s;
+  height: 34px;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: wheat;
+  border: none;
+  cursor: pointer;
+}
+
+#root .login .go-join {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 8px;
+          column-gap: 8px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,26 @@
+#root {
+    .header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        &>.wrapper {
+            margin: 0 auto;
+            width: 1280px;
+            height: 55px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           
+            .logo {
+                font-size: 35px;
+                cursor: pointer;
+            }
+            .header-contents {
+                display: grid;
+                grid-template-columns: repeat(2, auto);
+                column-gap: 16px;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+#root .mainfeed {
+  padding-top: 55px;
+  background-clip: content-box;
+  background-color: #fafafa;
+}
+
+#root .mainfeed > .wrapper {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+#root .mainfeed > .wrapper .feed-list .write-feed {
+  margin-top: 24px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 770px;
+  padding: 20px 24px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+
+#root .mainfeed > .wrapper .feed-list .write-feed .input-area {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root .mainfeed > .wrapper .feed-list .write-feed .input-area .input {
+  margin-left: 8px;
+  width: 80%;
+  height: 40px;
+}
+
+#root .mainfeed > .wrapper .feed-list .write-feed .input-area .input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+/*# sourceMappingURL=index.css.map */
